@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        $text = "Funcio basica de php";
+        $text = Funcio basica de php;
 
         echo "<h2>$text</h2>";
     ?>
