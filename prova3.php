@@ -7,18 +7,9 @@
 </head>
 <body>
     <?php
-        $nom = " ";
-        $cognom = " ";
-        $edat= " ";
-    ?>
+        $text = "Funcio basica de php";
 
-    <form>
-        <label for="nom">Nom:</label>
-        <input type="text" id="nom" name="nom" value="<?php echo $nom; ?>"><br><br>
-        <label for="nom">Cognom:</label>
-        <input type="text" id="cognom" name="cognom" value="<?php echo $cognom; ?>"><br><br>
-        <label for="nom">Edat:</label>
-        <input type="text" id="edat" name="edat" value="<?php echo $edat; ?>"><br><br>
-    </form>
+        echo "<h2>$text</h2>";
+    ?>
 </body>
 </html>
