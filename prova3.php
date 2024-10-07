@@ -14,6 +14,11 @@
 
     <form>
         <label for="nom">Nom:</label>
-        <input type="text" id="nom" name="nom" value="<?php echo $nom;
+        <input type="text" id="nom" name="nom" value="<?php echo $nom; ?>"><br><br>
+        <label for="nom">Cognom:</label>
+        <input type="text" id="cognom" name="cognom" value="<?php echo $cognom; ?>"><br><br>
+        <label for="nom">Edat:</label>
+        <input type="text" id="edat" name="edat" value="<?php echo $edat; ?>"><br><br>
+    </form>
 </body>
 </html>
